@@ -12,6 +12,12 @@ body {
 	background-color: #e4f1f6;
 }
 
+/* Style rule for img selector */
+img selector {
+  width: 100%;
+  display:block;
+}
+
 /* Style rule for header */
 header {
 	font-family: Verdana, Arial, sans-serif;
@@ -21,6 +27,19 @@ header {
     margin-top: 5%;
 }
 
+/* Style Rules for mobile viewport. */
+img style{
+
+}
+
+
+/* Style rule to hide tablet-desk class,*/
+tablet-desk class{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+
+}
 /* Style rules for nav */
 nav {
 	padding: 1%;
@@ -30,14 +49,20 @@ nav {
 
 nav ul {
     text-align: center;
+    bullet: remove;
 }
 
 nav li {
     font-size: 1.5em;
     padding: 4%;
+    display: inline-block;
+
 }
 
 nav li a {
+  font-family: "B612", sans-serif;
+  font-weight: 400;
+  font-style: normal;
     display: block;
     color: #092834;
     text-decoration: none;
@@ -45,10 +70,18 @@ nav li a {
 
 /* Style rules for main content  */
 main {
+  font-family: "Crimson Text", serif;
+ font-weight: 400;
+ font-style: normal;
 	display: block;
 	margin: 1% 1% 15%;
 	padding: 1%;
     font-size: 1.5em;
+}
+
+/* Style rule for the corner class */
+Corner class{
+  border:12px;
 }
 
 #image {
