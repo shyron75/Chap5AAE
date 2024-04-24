@@ -1,7 +1,7 @@
 /*
     Student Name
-	File Name: 
-	Current Date: 
+	File Name:
+	Current Date:
 */
 
 /* CSS reset */
@@ -15,6 +15,15 @@ body, header, nav, main, footer, img, h1, h3, ul {
 body {
     background-color: #375f1b;
 }
+
+/* Style Rules for mobile viewport. */
+
+/* Style Rules hides the tablet-desktop class. */
+
+tablet-desktop{
+  visibility: hidden;
+}
+
 
 img {
     max-width: 100%;
@@ -38,6 +47,7 @@ nav {
 
 nav ul {
     text-align: center;
+    bullet: remove;
 }
 
 nav li {
@@ -45,6 +55,7 @@ nav li {
     font-family: Geneva, Arial, sans-serif;
     font-weight: bold;
     padding: 3%;
+    display: inline-block;
 }
 
 nav li a {
@@ -62,6 +73,32 @@ main {
 
 main p {
     font-size: 1.25em;
+}
+
+#btn{
+  background-color:#375f1b;
+  padding: 2%;
+  top:2%;
+  bottom: 2%;
+  left: auto;
+  right: auto;
+  width: 80%;
+  text-align: center;
+  border-radius: 5px;
+
+  /* Style rule for anchor elements */
+
+  a:link {
+    color: #ebf7e3;
+    font-size: 1.25em;
+    display: block;
+    text-decoration: none;
+  }
+
+corner{
+  border-radius: 12px;
+}
+
 }
 
 /* Style rules for footer content */
